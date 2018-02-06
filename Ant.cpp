@@ -13,7 +13,7 @@ void Ant::move(int type)
     {
         cout << "Ant moved.." << endl;
         steps++;
-        cout << steps << endl;
+        cout << "Steps taken: " << steps << endl;
         if (steps == stepsToBreed)
         {
             breed();

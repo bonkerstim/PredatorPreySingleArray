@@ -14,7 +14,7 @@ void Doodlebug::move(int type)
     {
         cout << "Doodlebug moved.." << endl;
         steps++;
-        cout << steps << endl;
+        cout << "Steps taken: " << steps << endl;
         if (steps == stepsToStarve)
         {
             starve();
